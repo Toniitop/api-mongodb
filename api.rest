@@ -35,14 +35,19 @@ PUT http://localhost:3000/api/users/6548f6566802ae8e19bd782b HTTP/1.1
 content-type: application/json
 
 { 
-    "nombre": "José Antonio", 
-    "edad": 32 
+    "nombre": "Jose", 
+    "edad": 21 
 }
 
 ###
 
 DELETE http://localhost:3000/api/users/6544e7ced958fc237ad628ed HTTP/1.1
 content-type: application/json
+
+{
+    "nombre": "Jose",
+    "edad": 21
+}
 
 ###
 
