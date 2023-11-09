@@ -6,7 +6,7 @@ app.use(express.json())  // IMPORTANTE: SOPORTE PARA JSON
 
 
 const PORT = process.env.PORT ?? 3000
-const DB_URL = process.env.MONGODB_URI ?? 'mongodb://localhost:27017'
+const DB_URL = process.env.MONGODB_URI ?? 'mongodb+srv://tonitoortiz17:123456hola@cluster0.dfkvooj.mongodb.net/?retryWrites=true&w=majority'
 const DB_NAME = process.env.DB_NAME ?? 'api'
 const COLLECTION = 'users'
 
