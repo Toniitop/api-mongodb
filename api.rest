@@ -1,55 +1,57 @@
 # Ejemplos
 
-POST http://localhost:3000/api/productos HTTP/1.1
+POST https://api-mongodb-dev-nnas.3.us-1.fl0.io/api/productos HTTP/1.1
 content-type: application/json
 
 { 
-    "nombre": "Maria", 
-    "edad": 27 
+    "nombre": "Jamon", 
+    "precio": 60 
 }
 
 ### 
 
-POST http://localhost:3000/api/productos HTTP/1.1
+POST https://api-mongodb-dev-nnas.3.us-1.fl0.io/api/productos HTTP/1.1
 content-type: application/json
 
 { 
-    "nombre": "Jose", 
-    "edad": 21 
+    "id": 3,
+    "nombre": "Harina", 
+    "precio": 2 
 }
 
 
 ### 
 
-GET http://localhost:3000/api/productos HTTP/1.1
+GET https://api-mongodb-dev-nnas.3.us-1.fl0.io/api/productos HTTP/1.1
 content-type: application/json
 
 ###
 
-GET http://localhost:3000/api/productos/6542da20c20d9ad95c739701 HTTP/1.1
+GET https://api-mongodb-dev-nnas.3.us-1.fl0.io/api/productos HTTP/1.1
 content-type: application/json
 
 ###
 
-PUT http://localhost:3000/api/productos/6548f6566802ae8e19bd782b HTTP/1.1
+PUT https://api-mongodb-dev-nnas.3.us-1.fl0.io/api/productos HTTP/1.1
 content-type: application/json
 
 { 
-    "nombre": "Jose", 
-    "edad": 21 
+    "id": 4,
+    "nombre": "Cerveza", 
+    "precio": 1.5 
 }
 
 ###
 
-DELETE http://localhost:3000/api/productos/6544e7ced958fc237ad628ed HTTP/1.1
+DELETE https://api-mongodb-dev-nnas.3.us-1.fl0.io/api/productos HTTP/1.1
 content-type: application/json
 
 {
-    "nombre": "Jose",
-    "edad": 21
+    "nombre": "Cerveza",
+    "precio": 1.5
 }
 
 ###
 
-DELETE https://api-mongodb-dev-nnas.3.us-1.fl0.io/api/productos/6542da20c20d9ad95c739701 HTTP/1.1
+DELETE https://api-mongodb-dev-nnas.3.us-1.fl0.io/api/productos HTTP/1.1
 content-type: application/json
