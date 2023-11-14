@@ -1,6 +1,6 @@
 # Ejemplos
 
-POST https://api-mongodb-dev-nnas.3.us-1.fl0.io/api/productos HTTP/1.1
+POST https://api-mongodb-dev-ahdm.2.us-1.fl0.io/api/productos HTTP/1.1
 content-type: application/json
 
 { 
@@ -10,29 +10,29 @@ content-type: application/json
 
 ### 
 
-POST https://api-mongodb-dev-nnas.3.us-1.fl0.io/api/productos HTTP/1.1
+POST https://api-mongodb-dev-ahdm.2.us-1.fl0.io/api/productos HTTP/1.1
 content-type: application/json
 
 { 
     "id": 3,
-    "nombre": "Harina", 
+    "nombre": "Agua", 
     "precio": 2 
 }
 
 
 ### 
 
-GET https://api-mongodb-dev-nnas.3.us-1.fl0.io/api/productos HTTP/1.1
+GET https://api-mongodb-dev-ahdm.2.us-1.fl0.io/api/productos HTTP/1.1
 content-type: application/json
 
 ###
 
-GET https://api-mongodb-dev-nnas.3.us-1.fl0.io/api/productos HTTP/1.1
+GET https://api-mongodb-dev-ahdm.2.us-1.fl0.io/api/productos HTTP/1.1
 content-type: application/json
 
 ###
 
-PUT https://api-mongodb-dev-nnas.3.us-1.fl0.io/api/productos HTTP/1.1
+PUT https://api-mongodb-dev-ahdm.2.us-1.fl0.io/api/productos HTTP/1.1
 content-type: application/json
 
 { 
@@ -43,7 +43,7 @@ content-type: application/json
 
 ###
 
-DELETE https://api-mongodb-dev-nnas.3.us-1.fl0.io/api/productos HTTP/1.1
+DELETE https://api-mongodb-dev-ahdm.2.us-1.fl0.io/api/productos HTTP/1.1
 content-type: application/json
 
 {
@@ -53,5 +53,5 @@ content-type: application/json
 
 ###
 
-DELETE https://api-mongodb-dev-nnas.3.us-1.fl0.io/api/productos HTTP/1.1
+DELETE https://api-mongodb-dev-ahdm.2.us-1.fl0.io/api/productos HTTP/1.1
 content-type: application/json
